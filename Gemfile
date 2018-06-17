@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
-gem "middleman", "~>3.1.3"
+gem "middleman", "~> 4.1.2"
 gem "middleman-more"
-gem "middleman-blog"
+gem "middleman-blog", ">= 4.0.0"
 
-gem "unicorn"
+gem "unicorn", ">= 4.6.3"
 gem "builder"
 
-gem 'redcarpet'
+gem 'redcarpet', '>= 3.2.3'
 gem 'pygments.rb'
 
 gem 'fly', :git => 'git://github.com/cupcake/fly.git', :branch => 'flynn'
